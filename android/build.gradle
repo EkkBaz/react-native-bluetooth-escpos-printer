@@ -55,6 +55,6 @@ repositories {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.facebook.react:react-native:+'  // From node_modules
-    complle group: 'com.android.support', name: 'support-v4', version: '27.0.0'
+    compile group: 'com.android.support', name: 'support-v4', version: '27.0.0'
     compile "com.google.zxing:core:3.3.0"
 }
